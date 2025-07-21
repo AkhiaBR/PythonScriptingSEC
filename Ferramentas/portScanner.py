@@ -2,7 +2,7 @@ import socket, sys
 
 if (len(sys.argv) < 2):
     print("ERRO: Argumentos insuficientes.")
-    print("EXEMPLO DE USO: python script.py <IP> <porta>")
+    print("EXEMPLO DE USO: python script.py <IP>")
     sys.exit(1)
 else:
     ip = str(sys.argv[1])
